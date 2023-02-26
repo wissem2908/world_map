@@ -1,0 +1,97 @@
+          #map{
+      
+    width: auto;
+    height: 100vh;
+    z-index: 1;
+
+          }
+      		#nav{
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 10%;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 20px;
+          max-width: 400px;
+          text-align: center;
+          font-size: 16px;
+          padding: 5px;
+          z-index: 1000;
+          background-color:#0c0c4c;
+          color:#fff;
+              }
+        .leaflet-popup-content-wrapper {
+          background-color: #fff;
+          color: #262626;
+          font-size: 18px;
+          padding: 1px;
+          border-radius: 0;
+          box-shadow: rgb(91 164 65 / 24%) 6px 1px 13px 15px;
+         width: 100%;
+        }
+        .leaflet-popup-content{
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+
+        }
+        .leaflet-container a.leaflet-popup-close-button {
+          position: absolute;
+          top: 8px;
+          right: 10px;
+    font: 32px/24px Tahoma, Verdana, sans-serif;
+    color: #fff7f7;
+    background: #188050;
+        }
+        .leaflet-touch .leaflet-bar button {
+    width: 42px;
+    height: 35px;
+    /* line-height: 30px; */
+    text-align: center;
+    padding-top: 5px;
+}
+.modal-body{
+  margin:0;
+  padding: 0;
+}
+.fa-cloud-sun-rain{
+  color: orange;
+}
+.fa-wikipedia-w{
+  color:blue;
+}
+.fa-star{
+  color:yellow;
+}
+.weatherBody,.wiki_body{
+ background: #fff;
+ color:#262626;
+ font-size: 18px;
+ font-weight: 500;
+
+}
+.weatherBody{
+  height: 500px;
+    overflow: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #188050; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
